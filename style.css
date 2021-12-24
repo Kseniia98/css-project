@@ -2,23 +2,24 @@
   box-sizing: border-box;
   vertical-align: middle;
   text-align: center;
-  font-size: 25px;
   font-weight: 900;
-} 
+}
 
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
   color: white;
+  font-size: 0px;
 }
 
-.container-plate {  
+.container-plate {
   border: 3px solid grey;
   max-height: 500px;
   min-height: 300px;
   height: 49%;
   width: 100%;
+  font-size: 0px;
 }
 
 .plate {
@@ -31,6 +32,7 @@ body {
   background-color: rgb(233, 115, 115);
   line-height: 300px;
   border: 3px solid grey;
+  font-size: 25px;
 }
 
 .plate-other {
@@ -43,6 +45,7 @@ body {
   height: 50%;
   line-height: 150px;
   border: 3px solid grey;
+  font-size: 25px;
 }
 
 .plate-3 {
@@ -52,6 +55,7 @@ body {
   width: 50%;
   line-height: 150px;
   border: 3px solid grey;
+  font-size: 25px;
 }
 
 .plate-4 {
@@ -70,6 +74,7 @@ body {
   height: 50%;
   line-height: 75px;
   border: 3px solid grey;
+  font-size: 25px;
 }
 
 .plate-4b {
@@ -77,4 +82,5 @@ body {
   line-height: 75px;
   background-color: rgb(118, 118, 199);
   border: 3px solid grey;
+  font-size: 25px;
 }
