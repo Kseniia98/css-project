@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+} 
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.container-plate {  
+  border: 3px solid grey;
+  max-height: 500px;
+  min-height: 300px;
+  height: 49%;
+  width: 100%;
+}
+
+.plate {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  border: 3px solid grey;
+}
+.plate-1 {
+  background-color: rgb(233, 115, 115);
+  line-height: 300px;
+  border: 3px solid grey;
+}
+
+.plate-other {
+  display: inline-block;
+  border: 3px solid grey;
+}
+
+.plate-2 {
+  background-color: yellowgreen;
+  height: 50%;
+  line-height: 150px;
+  border: 3px solid grey;
+}
+
+.plate-3 {
+  background-color: violet;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  line-height: 150px;
+  border: 3px solid grey;
+}
+
+.plate-4 {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  border: 3px solid grey;
+}
+
+.plate-other-block {
+  height: 50%;
+}
+
+.plate-4a {
+  background-color: rgb(118, 118, 199);
+  height: 50%;
+  line-height: 75px;
+  border: 3px solid grey;
+}
+
+.plate-4b {
+  height: 49%;
+  line-height: 75px;
+  background-color: rgb(118, 118, 199);
+  border: 3px solid grey;
+}
